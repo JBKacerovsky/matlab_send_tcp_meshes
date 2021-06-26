@@ -15,6 +15,6 @@ FV.vertices(:, 3) = FV.vertices(:, 3) + 1.5 ;
 % patch(FV, 'facecolor', 'b', 'edgecolor', 'none'); 
 
 %%
-ip= '192.xxx.x.xx';
+% ip= '192.xxx.x.xx';
 tcpSendMesh(FV, ip); 
 
