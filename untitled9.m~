@@ -21,6 +21,3 @@ FV.vertices(:, 2) = FV.vertices(:, 2) + 0.1;
 % FV.vertices(:, 1) = FV.vertices(:, 1) + 0.3; 
 
 tcpSendMesh(FV, ipPhone); 
-%%
-tcpSendMesh(FV2, ipPhone); 
-    
